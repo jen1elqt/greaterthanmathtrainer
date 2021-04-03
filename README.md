@@ -10,7 +10,7 @@ Program shows 2 random equations; possible formats are as follows:
 - (x + y) - z
 - (x - y) + z
 
-User may set maximum number possible per variable by editing MAX_VALUE in program
+User may set maximum number possible per variable by editing 'max_value' in program
 
 Statistics of the user is shown; format is as follows:
 
