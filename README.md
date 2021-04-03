@@ -18,9 +18,9 @@ Statistics of the user is shown; format is as follows:
 
 Where:
 
-*T = Trials  *
-*P = Points / Score  *
-*M = Mistakes  *
-*C = Corrects  *
-*% = Percantage of correct answers  *
-*S = Average time taken to answer a question in seconds  *
+*- T = Trials  
+- P = Points / Score  
+- M = Mistakes  
+- C = Corrects  
+- % = Percantage of correct answers  
+- S = Average time taken to answer a question in seconds  *
