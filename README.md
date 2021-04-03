@@ -1,4 +1,4 @@
-#GREATER THAN MATH TRAINER
+# GREATER THAN MATH TRAINER
 
 ## This is a simple Math Trainer Game.
 
