@@ -7,7 +7,8 @@ from statistics import mean
 
 system('title MATHEMATICS TRAINING')
 
-max_value = 20
+# maximum number to possibly appear
+max_value = 10
 
 points = 0
 mistakes = 0
@@ -25,7 +26,7 @@ while True:
 		s3s = Fore.MAGENTA
 	else:
 		s3s = Fore.RED
-	print ('\n\n\t\t[ ' + Fore.YELLOW + str(tries) + Fore.GREEN + ' ] ', end='')
+	print ('\n\n\t\t[ ' + random.choice(colx) + str(tries) + Fore.GREEN + ' ] ', end='')
 	print(' [ ' + s3s + str(points) + Fore.GREEN +' :: ' + Fore.RED+  str(mistakes) + Fore.GREEN+ ' :: ' + Fore.WHITE + str(corrects) + Fore.GREEN + ' ]', end='')
 	if tries > 0:
 		perc = ((corrects/tries) * 100)
